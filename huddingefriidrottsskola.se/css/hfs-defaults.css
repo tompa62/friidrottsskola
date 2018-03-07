@@ -44,6 +44,7 @@ h6 {
   font-family: 'Arial', 'Catamaran', 'Helvetica',  'sans-serif';
   font-weight: bold;
   letter-spacing: 1px;
+  word-break: break-word;
 }
 
 p {
@@ -122,6 +123,12 @@ header.masthead .device-container {
 
 header.masthead .device-container .screen img {
   border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    header.h1{
+        font-size:14px;
+    }
 }
 
 @media (min-width: 992px) {
