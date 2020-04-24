@@ -83,6 +83,19 @@ main .content h1 {
 
 main .dot-border {
   border-color: black;
+  /*border-style: dotted;*/
+  border-style: none;
+}
+
+main .dot-border-red {
+  border-color: red;
+  /*border-style: dotted;*/
+  border-style: none;
+}
+
+main .dot-border-green {
+  border-color: green;
+  /*border-style: dotted;*/
   border-style: none;
 }
 
