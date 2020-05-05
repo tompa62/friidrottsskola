@@ -99,6 +99,14 @@ main .dot-border-green {
   border-style: none;
 }
 
+main .green{
+     color:green;
+}
+
+main .red{
+     color:red;
+}
+
 main ul {
   font-size: 1.2rem;
 
