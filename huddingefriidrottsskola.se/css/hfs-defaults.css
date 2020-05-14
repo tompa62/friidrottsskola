@@ -112,6 +112,9 @@ main ul {
 
   /* color: red; */
  }
+ main lh {
+   font-weight: bold;
+ }
 header.masthead {
   position: relative;
   width: 100%;
