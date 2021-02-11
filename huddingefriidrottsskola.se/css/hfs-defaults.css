@@ -5,9 +5,11 @@ body {
 
 body {
   font-family: 'Arial', 'Muli', 'Helvetica', 'sans-serif';
-  background: #ff9900;
-  background:  -webkit-linear-gradient(#ff9900, #ffffcc);
-  background: linear-gradient(#ff9900, #ffffcc);
+  background: #444444;
+  height: 100%;
+  /* background: #ff9900; */
+  /* background:  -webkit-linear-gradient(#ff9900, #ffffcc);
+  background: linear-gradient(#ff9900, #ffffcc);*/
 
 }
 
@@ -42,6 +44,7 @@ h4,
 h5,
 h6 {
   font-family: 'Arial', 'Catamaran', 'Helvetica',  'sans-serif';
+  color: white;
   font-weight: bold;
   letter-spacing: 1px;
   word-break: break-word;
@@ -52,6 +55,10 @@ p {
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+.center-white {
+  text-align: center;
+  color: white;
 }
 
 main .centered {
@@ -115,7 +122,7 @@ main ul {
  main lh {
    font-weight: bold;
  }
- 
+
 header.masthead {
   position: relative;
   width: 100%;
@@ -181,9 +188,12 @@ footer {
   text-align: center;
   /* color: rgba(255, 255, 255, 0.3); */
   /* background-color: #222222; */
-  background: #ff9900;
+  background: #444444;
+  background:  -webkit-linear-gradient(#444444, #111111);
+  background: linear-gradient(#444444, #111111);
+  /*background: #ff9900;
   background:  -webkit-linear-gradient(#ffffcc, #ff9900);
-  background: linear-gradient(#ffffcc, #ff9900);
+  background: linear-gradient(#ffffcc, #ff9900);*/
 }
 
 footer p {
