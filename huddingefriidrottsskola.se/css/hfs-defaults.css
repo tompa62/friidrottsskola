@@ -4,7 +4,8 @@ body {
 }
 
 body {
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, “Roboto”, “Droid Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, “Roboto”, “Droid Sans”,
+    “Helvetica Neue”, Helvetica, Arial, sans-serif;
   min-height: 50vh;
   width: 100%;
   background: url(../img/fri21-bg.jpg);
@@ -30,10 +31,13 @@ body {
   border-color: #fff;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 /* .custom-nav-color {
   background-color: #ffffcc;
 } */
-
 
 a {
   color: #0000ff;
@@ -55,11 +59,11 @@ a:focus {
 
 .w-full {
   width: 100%;
- }
+}
 
- .main-btn {
-   font-size: 1.5rem;
- }
+.main-btn {
+  font-size: 1.5rem;
+}
 
 p {
   font-size: 1.2rem;
