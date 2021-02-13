@@ -128,8 +128,8 @@ main .content h1 {
 
 main .dot-border {
   border-color: white;
-  border-style: dotted;
-  /* border-style: none ; */
+  /* border-style: dotted; */
+  border-style: none ;
 }
 
 main .dot-border-red {
