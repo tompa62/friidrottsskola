@@ -5,11 +5,13 @@ body {
 
 body {
   font-family: 'Arial', 'Muli', 'Helvetica', 'sans-serif';
-  background: #444444;
+  background-color: #444444;
   height: 100%;
   /* background: #ff9900; */
   /* background:  -webkit-linear-gradient(#ff9900, #ffffcc);
   background: linear-gradient(#ff9900, #ffffcc);*/
+  background: url(/img/fri21-bg.jpg) no-repeat center center fixed;
+  /*opacity: .9;*/
 
 }
 
@@ -61,6 +63,42 @@ p {
   color: white;
 }
 
+.left-white {
+  text-align: left;
+  color: white;
+}
+
+.btn-success {
+  text-align: center;
+  /* color: #5cb85c; */
+}
+
+.btn-warning {
+  text-align: center;
+  /* color: #f0ad4e; */
+}
+.btn-danger {
+  text-align: center;
+  /* color: #d9534f; */
+}
+
+.btn-default {
+ background-color: #68889E;
+ color:#FFF;
+ border-color: #2F3E48;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-color: #2F3E48;
+  color:#FFF;
+  border-color: #31347B;
+}
+
+
 main .centered {
   text-align:center;
 }
@@ -89,9 +127,9 @@ main .content h1 {
 }
 
 main .dot-border {
-  border-color: black;
-  /*border-style: dotted;*/
-  border-style: none;
+  border-color: white;
+  border-style: dotted;
+  /* border-style: none ; */
 }
 
 main .dot-border-red {
