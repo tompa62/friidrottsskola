@@ -4,56 +4,36 @@ body {
 }
 
 body {
-  font-family: 'Arial', 'Muli', 'Helvetica', 'sans-serif';
-  background-color: #444444;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, “Roboto”, “Droid Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  background-color: ;
   height: 100%;
-  /* background: #ff9900; */
-  /* background:  -webkit-linear-gradient(#ff9900, #ffffcc);
-  background: linear-gradient(#ff9900, #ffffcc);*/
-  background: url(/img/fri21-bg.jpg) no-repeat center center fixed;
+  background: url(../img/fri21-bg.jpg) center;
   /*opacity: .9;*/
+}
+
+.container {
 
 }
 
 a {
   color: #0000ff;
   /* color: #fdcc52; */
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #006600;
   /* color: #fcbd20; */
 }
 
-hr {
-  max-width: 100px;
-  margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
-}
-
-hr.light {
-  border-color: white;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Arial', 'Catamaran', 'Helvetica',  'sans-serif';
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
-  word-break: break-word;
+.btn h2 {
+  margin-bottom: 0;
 }
 
 p {
-  /*font-size: 28px; */
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -83,9 +63,9 @@ p {
 }
 
 .btn-default {
- background-color: #68889E;
- color:#FFF;
- border-color: #2F3E48;
+  background-color: #68889e;
+  color: #fff;
+  border-color: #2f3e48;
 }
 
 .btn-default:hover,
@@ -93,14 +73,13 @@ p {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  background-color: #2F3E48;
-  color:#FFF;
-  border-color: #31347B;
+  background-color: #2f3e48;
+  color: #fff;
+  border-color: #31347b;
 }
 
-
 main .centered {
-  text-align:center;
+  text-align: center;
 }
 
 section {
@@ -112,7 +91,7 @@ section h2 {
 }
 
 main .v-align {
-   align-items: center;
+  align-items: center;
 }
 
 main .content {
@@ -123,13 +102,13 @@ main .content {
 
 main .content h1 {
   font-size: 30px;
-  text-align:center;
+  text-align: center;
 }
 
 main .dot-border {
   border-color: white;
   /* border-style: dotted; */
-  border-style: none ;
+  border-style: none;
 }
 
 main .dot-border-red {
@@ -144,22 +123,22 @@ main .dot-border-green {
   border-style: none;
 }
 
-main .green{
-     color:green;
+main .green {
+  color: green;
 }
 
-main .red{
-     color:red;
+main .red {
+  color: red;
 }
 
 main ul {
   font-size: 1.2rem;
 
   /* color: red; */
- }
- main lh {
-   font-weight: bold;
- }
+}
+main lh {
+  font-weight: bold;
+}
 
 header.masthead {
   position: relative;
@@ -168,7 +147,7 @@ header.masthead {
   padding-bottom: 100px;
   color: black;
   background: #ff9900;
-  background:  -webkit-linear-gradient(#ff9900, #ffffcc);
+  background: -webkit-linear-gradient(#ff9900, #ffffcc);
   background: linear-gradient(#ff9900, #ffffcc);
 }
 
@@ -177,12 +156,11 @@ header .header-content {
   margin-bottom: 10px;
   margin-top: 30px;
   text-align: center;
-
 }
 
 header .header-content h1 {
   font-size: 75px;
-  text-align:center;
+  text-align: center;
 }
 
 header.masthead .device-container {
@@ -196,9 +174,9 @@ header.masthead .device-container .screen img {
 }
 
 @media screen and (max-width: 768px) {
-    header.h1{
-        font-size:14px;
-    }
+  header.h1 {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -220,14 +198,13 @@ header.masthead .device-container .screen img {
   }
 }
 
-
 footer {
   padding: 25px 0;
   text-align: center;
   /* color: rgba(255, 255, 255, 0.3); */
   /* background-color: #222222; */
   background: #444444;
-  background:  -webkit-linear-gradient(#444444, #111111);
+  background: -webkit-linear-gradient(#444444, #111111);
   background: linear-gradient(#444444, #111111);
   /*background: #ff9900;
   background:  -webkit-linear-gradient(#ffffcc, #ff9900);
@@ -248,7 +225,10 @@ footer ul li a {
   color: rgba(255, 255, 255, 0.3);
 }
 
-footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
   text-decoration: none;
 }
 
