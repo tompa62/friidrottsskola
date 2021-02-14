@@ -1,2 +1,7 @@
 #.gitignore
-#*.docx#
+#*.docx\#
+*.pdf
+*orig.css
+# indesign tmp file(?)
+*.idlk
+mdb-favicon.ico
